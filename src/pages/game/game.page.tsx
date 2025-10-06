@@ -22,7 +22,7 @@ export const GamePage = () => {
   const JUMP_STRENGTH = -8;
   const BIRD_SIZE = 50;
   const PIPE_WIDTH = 60;
-  const PIPE_GAP = 220;
+  const PIPE_GAP = 250;
   const PIPE_SPEED = 3;
   const GAME_HEIGHT = 700;
   const GAME_WIDTH = 500;
@@ -47,7 +47,7 @@ export const GamePage = () => {
       pipeBorder: 'border-neutral-700',
       bgGradient: 'from-black via-gray-800 to-pink-500',
       catchphrase: 'Aqui, to só tomando filho!',
-      maxPoint: 30,
+      maxPoint: 40,
       finishImage: larissaFinishImage,
       footerImages: [
         'https://m.media-amazon.com/images/I/81-jvnt+hgL.jpg',
