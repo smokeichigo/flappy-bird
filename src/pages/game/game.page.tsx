@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import hugoImage from '../../images/Screenshot from 2025-10-05 20-38-08.png'
 import larissaImage from '../../images/Screenshot from 2025-10-05 20-39-05.png'
 import larissaFinishImage from '../../images/thumbnail.jpeg'
+import hugoFinishImage from '../../images/Screenshot from 2025-10-05 23-15-56.png'
 
 export const GamePage = () => {
   const [birdY, setBirdY] = useState(250);
@@ -72,7 +73,7 @@ export const GamePage = () => {
       Fiz esse joguinho com muito carinho para oceis dois LidiAziaas, se gostou fala pra mim eiiin!
       E como recompensa por chegar aqui vou te dar um presente, fala com sua mãe algo que você queira muito que eu vou comprar para você, pode ser um brinquedo, um jogo, o que você quiser!
       Abração Huguinhooo! :D `,
-      finishImage: larissaFinishImage,
+      finishImage: hugoFinishImage,
       footerImages: [
         'https://tm.ibxk.com.br//2024/10/24/24100744427058.jpg?ims=1200x1200',
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyL2QZzo2H9Eibw5v_5pjERwCrHFafpEicig&s',
