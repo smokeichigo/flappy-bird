@@ -47,7 +47,7 @@ export const GamePage = () => {
       pipeBorder: 'border-neutral-700',
       bgGradient: 'from-black via-gray-800 to-pink-500',
       catchphrase: 'Aqui, to só tomando filho!',
-      maxPoint: 100,
+      maxPoint: 30,
       finishImage: larissaFinishImage,
       footerImages: [
         'https://m.media-amazon.com/images/I/81-jvnt+hgL.jpg',
@@ -63,7 +63,7 @@ export const GamePage = () => {
       emoji: '👦',
       cap: '⚽',
       faceImage: hugoImage,
-      maxPoint: 50,
+      maxPoint: 20,
       pipeImage: 'https://mundodosprodutos.com.br/wp-content/uploads/2024/07/curiosidades-sobre-o-flamengo.png',
       pipeColor: 'from-blue-600 to-blue-500',
       catchphrase: 'Aiii papaii, não deu!',
